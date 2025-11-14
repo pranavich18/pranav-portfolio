@@ -1,0 +1,1 @@
+import React from 'react'; import PranavPortfolio from './PranavPortfolio'; export default ()=> <PranavPortfolio/>;
