@@ -50,8 +50,8 @@ export default function PranavPortfolio() {
             systems and machine learning. Worked as a Software Development Engineer
             at Wells Fargo, with experience in full-stack development, data
             warehousing, and protocol fuzzing. I’ve contributed to open-source
-            applications through Google Summer of Code and published research in
-            IoT Security. Passionate about building reliable systems and exploring
+            applications through Google Summer of Code 2022, implementing performance optimizations in C++,
+            and published research in IoT Security. Passionate about building reliable systems and exploring
             the intersection of machine learning and systems.
           </p>
         </section>
@@ -166,15 +166,6 @@ export default function PranavPortfolio() {
               </a>
             </li>
 
-            {/* Trading Platform
-            <li className="bg-white p-5 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-200">
-              <h3 className="font-semibold text-lg">Trading Suggestion Platform (Internship)</h3>
-              <p className="text-sm text-slate-600 mt-1">
-                Backtesting + technical indicators (RSI, MACD, VWAP) packaged as
-                microservices for a cloud-deployed trading insights system on GKE.
-              </p>
-            </li> */}
-
           </ul>
         </section>
 
@@ -238,31 +229,48 @@ export default function PranavPortfolio() {
         </section>
 
         {/* Experience */}
-        <section className="bg-white p-6 rounded-2xl shadow-md hover:shadow-lg transition-shadow duration-200 space-y-3">
+        <section className="bg-white p-6 rounded-2xl shadow-md hover:shadow-lg transition-shadow duration-200 space-y-6">
           <h2 className="text-2xl font-semibold">Experience & Resume</h2>
-          <p className="text-slate-700 font-semibold">Software Engineer at Wells Fargo (Bangalore) — 2023–2025</p>
-          <p className="text-slate-700 mt-1">
-            Engineered a Data Warehousing application that generated deal performance reports for 100+ bankers/relationship managers.
-            Automated ETL workflows from 7+ source systems using SQL Server and SSIS packages, reducing processing delays by 30%.
-            Managed the full data pipeline (ingestion, transformation, reporting) and integrated with Power BI and OBIEE,
-            reducing manual reporting time by 60% and improving decision-making for 100+ stakeholders.
-          </p>
 
-          <div className="flex flex-wrap gap-3 mt-3">
+          {/* Wells Fargo */}
+          <div>
+            <strong>Software Engineer at Wells Fargo | 2023–2025</strong>
+            <p className="text-slate-700 mt-1">
+              Engineered a Data Warehousing application that generated deal performance reports for 100+ bankers/relationship managers.
+              Automated ETL workflows from 7+ source systems using SQL Server and SSIS packages, reducing processing delays by 30%.
+              Managed the full data pipeline (ingestion, transformation, reporting) and integrated with Power BI and OBIEE,
+              reducing manual reporting time by 60% and improving decision-making for 100+ stakeholders.
+            </p>
+          </div>
+
+          {/* Wells Fargo Internship */}
+          <div>
+            <strong>Software Engineering Intern — Wells Fargo | May 2022–Jul 2022</strong>
+            <p className="text-slate-700 mt-1">
+              Built a Trading Suggestion Platform for equities that predicts Buy/Sell options leveraging strategies and indicators
+              (RSI, MACD, VWAP) along with backtesting functionality. Implemented as microservices with load balancing and API gateways,
+              deployed on Google Kubernetes Engine (GCP).
+            </p>
+          </div>
+
+          {/* Google Summer of Code */}
+          <div>
+            <strong>Student Software Developer — Google Summer of Code 2022 | May 2022–Aug 2022</strong>
+            <p className="text-slate-700 mt-1">
+              Implemented a Zero-Cost Abstraction to switch between data layouts for a class using Modern C++17/20.
+              Conducted performance evaluation of Structure of Arrays (SoA) vs. Array of Structures (AoS) for memory efficiency,
+              SIMD-friendliness, and computational throughput.
+            </p>
+          </div>
+
+          {/* Resume Download */}
+          <div className="flex flex-wrap gap-3 mt-6">
             <a
               href="https://drive.google.com/file/d/1dVQf7mjyOwCnl_CdjuUoPuuOEwguku5m/view?usp=sharing"
               className="px-4 py-2 rounded-lg border border-indigo-600 text-indigo-600 hover:bg-indigo-50 text-sm transition"
             >
               Download Resume (PDF)
             </a>
-            {/* <a
-              href="https://drive.google.com/file/d/11HmTvebuWhkcBE7DsE3bgQ7grgxRT0cr/view?usp=sharing"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-4 py-2 rounded-lg border border-indigo-600 text-indigo-600 hover:bg-indigo-50 text-sm transition"
-            >
-              Drive - Full CV
-            </a> */}
           </div>
         </section>
 
