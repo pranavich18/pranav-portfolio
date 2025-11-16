@@ -11,7 +11,7 @@ export default function PranavPortfolio() {
           <div className="text-center md:text-left">
             <h1 className="text-4xl font-extrabold">Pranav Joshi</h1>
             <p className="text-slate-600 mt-1">
-              M.S. Computer Science — NYU Tandon | Software Engineer & Researcher
+              M.S. Computer Science — NYU Tandon 2025-2027 | Ex - Software Engineer & Researcher
             </p>
             <div className="flex flex-col md:flex-row md:gap-4 gap-2 mt-3 text-sm">
               <a
@@ -240,7 +240,7 @@ export default function PranavPortfolio() {
         {/* Experience */}
         <section className="bg-white p-6 rounded-2xl shadow-md hover:shadow-lg transition-shadow duration-200 space-y-3">
           <h2 className="text-2xl font-semibold">Experience & Resume</h2>
-          <p className="text-slate-700 font-semibold">Software Engineer at Wells Fargo (Bangalore) — 2021–2023</p>
+          <p className="text-slate-700 font-semibold">Software Engineer at Wells Fargo (Bangalore) — 2023–2025</p>
           <p className="text-slate-700 mt-1">
             Engineered a Data Warehousing application that generated deal performance reports for 100+ bankers/relationship managers.
             Automated ETL workflows from 7+ source systems using SQL Server and SSIS packages, reducing processing delays by 30%.
