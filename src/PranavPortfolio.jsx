@@ -194,7 +194,7 @@ export default function PranavPortfolio() {
                 Submitted to XVIII International Conference on Data Science and Intelligent Analysis of Information, 2023.
               </p>
               <a
-                href="https://link.springer.com/chapter/978-3-031-16178-0_25"
+                href="https://link.springer.com/chapter/10.1007/978-3-031-16178-0_25"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-xs text-indigo-600 hover:underline mt-1 inline-block"
