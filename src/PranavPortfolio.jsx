@@ -250,7 +250,7 @@ export default function PranavPortfolio() {
 
           <div className="flex flex-wrap gap-3 mt-3">
             <a
-              href="/pranav-portfolio/resume.pdf"
+              href="https://drive.google.com/file/d/1dVQf7mjyOwCnl_CdjuUoPuuOEwguku5m/view?usp=sharing"
               className="px-4 py-2 rounded-lg border border-indigo-600 text-indigo-600 hover:bg-indigo-50 text-sm transition"
             >
               Download Resume (PDF)
